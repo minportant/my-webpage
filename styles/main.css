@@ -339,11 +339,18 @@ li {
 }
 
 .timeline h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.timeline h6 {
     font-size: 2rem;
     text-transform: uppercase;
     font-weight: 300;
     margin-bottom: 1rem;
-    opacity: 0.3;
+    opacity: 0.7;
 }
 
 .timeline .date {
