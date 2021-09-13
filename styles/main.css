@@ -304,14 +304,6 @@ li {
     padding: 1px;
 }
 
-@media (max-width: 960px) and (min-width: 501px) {
-    .skills-img li { width: 70%; } 
-}
-
-@media (max-width: 500px) {
-    .skills-img li { width: 100%; }
-}
-
 .social-media {
     margin-top: 5rem;
 }
@@ -560,18 +552,6 @@ li {
     height: 47rem; 
 }
 
-@keyframes pulse {
-    0%{
-        box-shadow: 0 0 0 0 rgba(0,0,0,0.99)
-    }
-    70%{
-        box-shadow: 0 0 0 2rem rgba(229,114,0,0)
-    }
-    100%{
-        box-shadow: 0 0 0 0 rgba(229,114,0,0)
-    }
-}
-
 @media screen and (max-width: 1100px) {
     .slideshow { 
         width: 45rem; 
@@ -592,17 +572,19 @@ li {
         width: 45rem; 
         height: 35.25rem; 
     }
-}
 
-@media screen and (max-width: 1000px) {
     .nav-link {
         font-size: 2.7rem;
     }
+
+    .skills-img li { 
+        width: 70%;
+        display: inline-block; 
+    } 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 865px) {
     body {
-        background: white;
         background-size: cover;
     }
 
@@ -682,6 +664,11 @@ li {
         width: 30rem; 
         height: 23.5rem; 
     }
+
+    .skills-img li { 
+        width: 100%;
+        display: inline-block;
+    }
 }
 
 @media screen and (max-width:600px) {
@@ -726,7 +713,7 @@ li {
 
     .portfolio-description {
         margin: 0;
-        order: 2;
+        order: 2;   
     }
 
     .timeline p {
