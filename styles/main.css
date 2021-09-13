@@ -381,7 +381,7 @@ li {
     padding: 5rem;
     list-style: none;
     text-align: left;
-    width: 70%;
+    width: 65%;
 }
 
 .timeline h1 {
@@ -422,7 +422,7 @@ li {
 
 .timeline .date::before {
     content: attr(data-date);
-    left: -21rem;
+    left: -23.5rem;
     text-align: right;
     min-width: 12rem;
     font-size: 1.5rem;
@@ -544,7 +544,7 @@ li {
 
 .slideshow3 { 
     width: 60rem; 
-    height: 33rem; 
+    height: 49rem; 
 }
 
 .slideshow4 { 
@@ -570,7 +570,7 @@ li {
     
     .slideshow4 { 
         width: 45rem; 
-        height: 35.25rem; 
+        height: 36.75rem; 
     }
 
     .nav-link {
@@ -657,7 +657,7 @@ li {
     
     .slideshow3 { 
         width: 30rem; 
-        height: 16.5rem; 
+        height: 24.5rem; 
     }
     
     .slideshow4 { 
