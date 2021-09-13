@@ -226,6 +226,21 @@ li {
     font-weight: 300;
 }
 
+.resume .resume-link {
+    position: absolute;
+    font-size: 1.5rem;
+    color: red;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+.resume .resume-link:hover {
+    color: black;
+}
+
 .about .container {
     display: flex;
     align-items: center;
@@ -641,11 +656,11 @@ li {
         left: 2rem;
     }
 
-    .landing-text h1 {
+    .landing-txt h1 {
         font-size: 8rem;
     }
 
-    .landing-text h6 {
+    .landing-txt h6 {
         font-size: 1.4rem;
     }
 
