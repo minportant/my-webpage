@@ -13,7 +13,7 @@ html {
 body {
     width: 100%;
     height: 100%;
-    background: white;
+    background: #f5f5f5;
     background-size: cover;
 }
 
@@ -464,6 +464,48 @@ li {
     font-size: 1.4rem;
 }
 
+.slideshow,
+.slideshow2,
+.slideshow3,
+.slideshow4 { 
+    margin: 50px auto; 
+    position: relative; 
+    padding: 10px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+    background: white;
+}
+
+.slideshow > div,
+.slideshow2 > div,
+.slideshow3 > div,
+.slideshow4 > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+
+.slideshow {
+    width: 60rem; 
+    height: 40rem; 
+}
+
+.slideshow2 { 
+    width: 60rem; 
+    height: 42.5rem; 
+}
+
+.slideshow3 { 
+    width: 60rem; 
+    height: 33rem; 
+}
+
+.slideshow4 { 
+    width: 60rem; 
+    height: 47rem; 
+}
+
 @keyframes pulse {
     0%{
         box-shadow: 0 0 0 0 rgba(0,0,0,0.99)
@@ -473,6 +515,28 @@ li {
     }
     100%{
         box-shadow: 0 0 0 0 rgba(229,114,0,0)
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .slideshow { 
+        width: 45rem; 
+        height: 30rem; 
+    }
+
+    .slideshow2 { 
+        width: 45rem; 
+        height: 31.875rem; 
+    }
+    
+    .slideshow3 { 
+        width: 45rem; 
+        height: 24.75rem; 
+    }
+    
+    .slideshow4 { 
+        width: 45rem; 
+        height: 35.25rem; 
     }
 }
 
@@ -544,6 +608,26 @@ li {
     .timeline .date::after {
         left: -5.9rem;
     }
+
+    .slideshow { 
+        width: 30rem; 
+        height: 20rem; 
+    }
+
+    .slideshow2 { 
+        width: 30rem; 
+        height: 21.25rem; 
+    }
+    
+    .slideshow3 { 
+        width: 30rem; 
+        height: 16.5rem; 
+    }
+    
+    .slideshow4 { 
+        width: 30rem; 
+        height: 23.5rem; 
+    }
 }
 
 @media screen and (max-width:600px) {
@@ -603,4 +687,3 @@ li {
         right: 2rem;
     }
 }
-
